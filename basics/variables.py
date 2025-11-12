@@ -22,6 +22,10 @@ MAX_SIZE = 80
 # Lower camel case: The first letter is lowercase, and subsequent words start with uppercase.
 myVariableName  = 0  # Not the preferred convention...
 
+# Multiple variables can be assigned at the same time using a tuple on both sides of the assignment operator:
 
+x , y , z = 30 , -60 , 180
+print (" x , y , z = " ,x, y ,z )
 
 # 2025-11-12 v1. Created.
+# 2025-11-12 v2. Added multiple assignment example using tuples
