@@ -1,21 +1,19 @@
-In Python, a sequence is an ordered collection of items that can be accessed by their position (index). Sequences support operations like indexing, slicing, and iteration.
+In Python, a sequence is an ordered collection of items that can be accessed by their position (index).
+ Sequences support operations like indexing, slicing, and iteration.
 
 Common sequence types in Python include:
 
-List (list): Mutable, ordered collection of items. Example: [1, 2, 3]
-Tuple (tuple): Immutable, ordered collection. Example: (a, b, c)
-String (str): Immutable sequence of characters. Example: "hello"
-Range (range): Immutable sequence of numbers, often used in loops. Example: range(0, 10)
-Features of sequences:
+- List (list): Mutable, ordered collection of items. Example: [1, 2, 3]
+- Tuple (tuple): Immutable, ordered collection. Example: (a, b, c)
+- String (str): Immutable sequence of characters. Example: "hello"
+- Range (range): Immutable sequence of numbers, often used in loops. Example: range(0, 10)
 
-Items can be accessed by index (e.g., list[0])
-Support slicing to get subsets (e.g., list[1:3])
-Can be iterated over with loops
-Support len() to find the number of items
+
+Features of sequences:
+- Items can be accessed by index (e.g., list[0])
+- Support slicing to get subsets (e.g., list[1:3])
+- Can be iterated over with loops
+- Support len() to find the number of items
+
 Summary:
 A sequence is an ordered collection of elements that can be accessed and manipulated based on their position in the collection.
-
-Regenerate
-Copy
-Good response
-Bad response
