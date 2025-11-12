@@ -1,0 +1,2 @@
+A Boolean expression is a statement that evaluates to either True or False. 
+It is used in decision-making, conditions, and loops to control the flow of a program.
