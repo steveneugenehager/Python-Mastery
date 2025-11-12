@@ -1,0 +1,19 @@
+In Python, most data types that are objects have methods—functions associated with the data
+ type that allow you to perform operations or get information about the object.
+
+Common data types with methods include:
+
+-String (str): Methods like .lower(), .upper(), .strip(), .split(), .replace().
+-List (list): Methods like .append(), .remove(), .sort(), .pop(), .extend().
+-Dictionary (dict): Methods like .keys(), .values(), .items(), .get(), .update().
+-Tuple (tuple): Mainly immutable, but has methods like .count() and .index().
+-Set (set): Methods like .add(), .remove(), .union(), .intersection().
+-Integer (int) and Float (float): Limited methods, mainly for conversions and comparisons, e.g., .bit_length() for integers.
+-Boolean (bool): Methods like .bit_length() (since bool is a subclass of int).
+
+Note: Primitive data types like int, float, and bool have limited methods, as they 
+are immutable and simpler compared to container types like lists and strings.
+
+In summary:
+Data types that are objects (like strings, lists, dictionaries, sets) have methods 
+that you can call to manipulate or get information about the data.
