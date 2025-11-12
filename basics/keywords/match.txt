@@ -1,0 +1,22 @@
+In Python, the keyword match is used as part of the match statement, 
+introduced in Python 3.10, for structural pattern matching. It allows you to 
+compare a value against multiple patterns in a cleaner, more expressive 
+way than chained if-elif-else statements.
+
+match value:
+    case pattern1:
+        # code if pattern1 matches
+    case pattern2:
+        # code if pattern2 matches
+    case _:
+        # default case if no patterns match
+
+# example with more specifics
+command = input("Enter command (start, stop): ")
+match command:
+    case "start":
+        print("Starting the process.")
+    case "stop":
+        print("Stopping the process.")
+    case _:
+        print("Unknown command.")
