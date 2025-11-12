@@ -1,0 +1,13 @@
+"is" checks for object identity, ensuring you're truly checking if the variable is None.
+
+>>> a = None
+>>> a is None
+True
+>>> a is not None
+False
+
+>>> b = True
+>>> b is None
+False
+>>> b is not None
+True
