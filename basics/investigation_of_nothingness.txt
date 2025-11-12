@@ -1,0 +1,27 @@
+I wondered what Python did when comparing arithmetically numbers to null (None).
+
+Interestingly, there is no behavior to be understood.  Exception is raised for any inequality:
+
+>>> x = 1
+>>> y = None
+>>> x  < y
+Traceback (most recent call last):
+  File "<python-input-15>", line 1, in <module>
+    x  < y
+TypeError: '<' not supported between instances of 'int' and 'NoneType'
+
+>>> x == y
+False
+
+>>> x != y
+True
+
+
+
+>>> a = None
+>>> b = None
+>>> a == b
+True
+
+>>> a != b
+False
