@@ -1,0 +1,6 @@
+Logical operators (used with conditions):
+
+Operator	Description	                        Example	            Result
+and	        True if both conditions are true	x > 5 and y < 10	True if both are true
+or	        True if either condition is true	x > 5 or y < 10	    True if at least one is true
+not	        Negates the condition	            not x	            True if x is False, vice versa
