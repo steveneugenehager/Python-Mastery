@@ -1,0 +1,49 @@
+------------------------------------------------------------------------------------------
+Title:  Example
+Iterations:
+  1st - Date Started: 2025-xx-xx ; Date Completed: In Progress
+Format:  Video, Book, Audiobook, Ebook
+Publish Date: YYYY-MM-DD
+Length: n pages or h:mm hours
+Summary: Cut/Paste
+Topics / Chapters:
+------------------------------------------------------------------------------------------
+Title:  Harvard CS50’s Introduction to Programming with Python – Full University Course
+Iterations:
+  1st - Date Started: 2025-xx-xx ; Date Completed: In Progress
+Format:  YouTube Video - https://youtu.be/nLRL_NcnK-4?si=z1afDUim28pfVOds
+Publish Date: 2023-05-01
+Length: 16 hours
+Summary: 
+    Learn Python programming from Harvard University.  It dives more deeply into the design and 
+implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, 
+and Bootstrap. Topics include database design, scalability, security, and user experience. You 
+will learn how to write and use APIs, create interactive UIs, and leverage cloud services like 
+GitHub and Heroku.
+
+This course will teach you how to read and write code as well as how to test and “debug” it. It 
+is designed for students with or without prior programming experience who’d like to learn Python 
+specifically. Learn about functions, arguments, and return values (oh my!); variables and types; 
+conditionals and Boolean expressions; and loops. Learn how to handle exceptions, find and fix bugs, 
+and write unit tests; use third-party libraries; validate and extract data with regular expressions; 
+model real-world entities with classes, objects, methods, and properties; and read and write files. 
+Hands-on opportunities for lots of practice. Exercises inspired by real-world programming problems. 
+No software required except for a web browser, or you can write code on your own PC or Mac.
+
+Whereas CS50x (the original CS50 course) itself focuses on computer science more generally as well
+as programming with C, Python, SQL, and JavaScript, this course, aka CS50P, is entirely focused 
+on programming with Python. You can take CS50P before CS50x, during CS50x, or after CS50x. But 
+for an introduction to computer science itself, you should still take CS50x!
+
+Topics / Chapters:
+(00:04:48) Lecture 0 - Functions, Variables
+(01:50:24) Lecture 1 - Conditionals
+(02:46:23) Lecture 2 - Loops
+(04:07:10) Lecture 3 - Exceptions
+(04:51:45) Lecture 4 - Libraries
+(06:09:15) Lecture 5 - Unit Tests
+(07:00:22) Lecture 6 - File I/O
+(08:32:32) Lecture 7 - Regular Expressions
+(10:37:35) Lecture 8 - Object-Oriented Programming
+(13:28:47) Lecture 9 - Et Cetera
+------------------------------------------------------------------------------------------
