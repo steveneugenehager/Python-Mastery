@@ -10,6 +10,7 @@
 #
 # 2025-11-12 v1.  Created. To Do:  How should None be handled?  This occurs when the argument is invalid.
 # 2025-11-12 v2.  Added test cases for edge cases - None and Booleans. A list of numbers.
+# 2025-11-12 v3.  Added docstring to example function definition. (Best practice.)
 #
 # Purpose: Demonstrate a simple function definition and execute it with a few arguments of differing types.
 
@@ -28,6 +29,9 @@ def main():
 # it is typical to name the parameters in a meaningful way.
 # n here just means any old number.
 def square(n):
+    """
+    This function is just to illustrate a function definition.
+    """
     print("INFO|Running " , inspect.currentframe().f_code.co_name)
     try:
         return (n ** 2)
