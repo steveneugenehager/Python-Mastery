@@ -1,0 +1,10 @@
+Conditional operators in Python are used to perform logical comparisons and make decisions in the code. 
+They evaluate expressions and return True or False.
+
+Operator	Description	                Example	Result
+==	        Equal to	                x == y	True if x equals y
+!=	        equal to	                x != y	True if x does not equal y
+>	        Greater than	            x > y	True if x is greater than y
+<	        Less than	                x < y	True if x is less than y
+>=	        Greater than or equal to	x >= y	True if x is >= y
+<=	        Less than or equal to	    x <= y	True if x is <= y
