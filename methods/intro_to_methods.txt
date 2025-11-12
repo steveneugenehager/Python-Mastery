@@ -4,6 +4,8 @@ In Python, most data types that are objects have methods—functions associated 
 Common data types with methods include:
 
 -String (str): Methods like .lower(), .upper(), .strip(), .split(), .replace().
+    See https://docs.python.org/3/library/stdtypes.html#string-methods
+
 -List (list): Methods like .append(), .remove(), .sort(), .pop(), .extend().
 -Dictionary (dict): Methods like .keys(), .values(), .items(), .get(), .update().
 -Tuple (tuple): Mainly immutable, but has methods like .count() and .index().
