@@ -1,0 +1,23 @@
+    Scope in Python refers to the region or context in a program where a variable is 
+accessible or can be used. It determines where a variable can be referenced or modified.
+
+Types of scope in Python:
+-Local scope:
+    Variables defined inside a function are only accessible within that function.
+
+-Global scope:
+    Variables defined outside any function, accessible throughout the module (file).
+
+-Enclosing (nonlocal) scope:
+    Variables in the nearest enclosing function scope, used in nested functions.
+
+-Built-in scope:
+    Names of Python's built-in functions and constants (like len, max, etc.).
+
+Key points:
+    - Variables defined inside a function are local.
+    - Variables defined outside are global.
+    - You can access global variables inside functions unless shadowed by local variables.
+
+Summary:
+    Scope defines where variables are accessible in your program, controlling their visibility and lifetime during code execution.
