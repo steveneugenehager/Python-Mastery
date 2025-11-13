@@ -1,0 +1,3 @@
+Functions should not have side effects.  Side effects can't be tested.
+
+Functions should return values.  This makes the function testable.
