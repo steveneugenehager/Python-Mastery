@@ -14,3 +14,10 @@ Example:
 
 import math
 print(math.sqrt(16))
+
+*************************
+Python Built in modules *
+*************************
+math
+random # https://docs.python.org/3/library/random.html
+sys
