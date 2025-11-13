@@ -1,0 +1,23 @@
+In Python, a package is a way to organize related modules into a directory hierarchy, making it easier to manage large codebases.
+
+Key points:
+    - A package is a directory that contains modules (Python files with .py extension) and a special file named __init__.py.
+    - The __init__.py file indicates that the directory is a package (in Python versions earlier than 3.3). 
+            In newer versions, the file is optional, but it's still commonly used.
+
+Example Structure:
+
+my_package/
+│
+├── __init__.py
+├── module1.py
+└── module2.py
+
+To use modules from the package, you import them with dot notation:
+
+import my_package.module1
+from my_package import module2
+
+Purpose:
+    - Packages help organize code into logical units.
+    - They prevent naming conflicts by providing a namespace.
