@@ -1,0 +1,8 @@
+Library
+-------
+- A library is a collection of modules designed to provide a set of related functionalities.
+- Think of a library as a package that groups multiple modules together.
+        Example: NumPy, Pandas, Requests are Python libraries that include many modules/packages.
+
+
+When you install packages via pip, you're installing libraries.
