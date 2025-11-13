@@ -1,0 +1,27 @@
+In Python, a list is a mutable, ordered collection of items that can contain elements of different types (numbers, strings, other lists, etc.).
+
+Key features of lists:
+    - Ordered: Items have a specific order and can be accessed by index.
+    - Mutable: You can change, add, or remove elements after creation.
+    - Heterogeneous: Items can be of different data types within the same list.
+
+Common operations:
+    - Access elements by index:     my_list[0] → 1
+    - Change elements:              my_list[1] = "banana"
+    - Append items:                 my_list.append("new item")
+    - Remove items:                 (by index) del my_list[2]                     or by value my_list.remove(3.14)
+    - Length of the list:           len(my_list)
+
+
+Python code:
+
+# define with square brackets:
+my_list = []
+my_list = [ obj , ...]
+
+# define with list() function
+empty_list = list()
+list_from_tuple = list( (1, 2, 3) )
+
+>>> type( list () )
+<class 'list'>
