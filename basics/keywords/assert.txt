@@ -1,0 +1,25 @@
+assert is a statement in Python used for debugging and testing. It checks whether a condition is True. If the condition is False, assert raises an AssertionError exception, optionally displaying a message.
+
+
+Example:
+
+x = 5
+assert x > 0  # Passes, because x > 0
+
+assert x < 0, "x should be negative"  # Raises AssertionError with message
+
+>>> x = 5
+>>> assert x < 0
+Traceback (most recent call last):
+  File "<python-input-95>", line 1, in <module>
+    assert x < 0
+           ^^^^^
+AssertionError
+
+
+How it works:
+    - If the condition evaluates to True, the program continues as normal.
+    - If False, an AssertionError is raised, which can help catch bugs early.
+
+Typical use case:
+    - To verify assumptions or invariants in code, especially during development.

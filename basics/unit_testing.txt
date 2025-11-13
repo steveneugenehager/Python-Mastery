@@ -1,0 +1,8 @@
+    Unit testing is a software testing method where individual parts of a program, 
+called units (such as functions, methods, or classes), are tested separately to 
+ensure they work correctly.
+
+Key points:
+    - Focuses on small, isolated pieces of code.
+    - Helps catch bugs early in the development process.
+    - Usually automated, meaning tests are written as code and run automatically.

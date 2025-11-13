@@ -1,0 +1,12 @@
+    PyTest is a popular testing framework for Python that makes it easy to write and run tests
+ for your code. It helps you check that your programs work correctly by running test
+ functions and providing clear, detailed reports.
+
+What PyTest does:
+    - Lets you write simple test functions using assert statements.
+    - Automatically discovers and runs tests in your project.
+    - Supports fixtures, setup/teardown, parameterized tests, and more.
+    - Provides helpful error messages when tests fail.
+
+
+C:\Users\steve\AppData\Local\Python\pythoncore-3.14-64\Scripts\pytest.exe

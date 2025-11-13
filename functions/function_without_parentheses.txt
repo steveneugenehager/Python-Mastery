@@ -1,0 +1,16 @@
+    When you specify a function name without parentheses in Python, you're referencing the 
+function object itself, not calling or executing the function.
+
+Explanation:
+    - With parentheses: my_function(), you call the function, executing its code.
+    - Without parentheses: my_function, you refer to the function object — you might pass it around, 
+            assign it to variables, or use it as a callback.
+
+
+# an example ....
+def greet():
+    print("Hello!")
+# Referencing the function (no parentheses)
+func_ref = greet
+# Now, calling the function via the reference
+func_ref()  # Output: Hello!
