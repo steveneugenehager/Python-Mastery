@@ -9,5 +9,7 @@ for m in numerator:
         try:
             result = m / n 
             print(' ; result =' , result)
-        except ZeroDivisionError:
-            print(" ; WARNING: ZeroDivisionError: division by zero; was caught and handled without crashing the program.")
+        except ZeroDivisionError as zde:
+            print(" ; WARNING: ZeroDivisionError:" , zde ) 
+
+#2025-11-12 v2. Added capture and display of full error message. 
