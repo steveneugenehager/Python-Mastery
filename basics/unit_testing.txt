@@ -6,3 +6,6 @@ Key points:
     - Focuses on small, isolated pieces of code.
     - Helps catch bugs early in the development process.
     - Usually automated, meaning tests are written as code and run automatically.
+
+
+Functions need to be written so they return something so they can be unit tested.
