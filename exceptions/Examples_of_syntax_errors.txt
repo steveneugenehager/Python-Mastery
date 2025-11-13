@@ -1,0 +1,17 @@
+>>> a = 'abc
+  File "<python-input-59>", line 1
+    a = 'abc
+        ^
+SyntaxError: unterminated string literal (detected at line 1)
+
+>>> a = 'abc
+  File "<python-input-59>", line 1
+    a = 'abc
+        ^
+SyntaxError: unterminated string literal (detected at line 1)
+
+>>> print(x))
+  File "<python-input-65>", line 1
+    print(x))
+            ^
+SyntaxError: unmatched ')'
