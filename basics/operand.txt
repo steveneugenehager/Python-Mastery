@@ -1,0 +1,11 @@
+In Python programming, an operand is a data value or variable that operators work with during an expression.
+
+Explanation:
+- Operand is the value or variable on which an operator performs an operation.
+- In an expression like 3 + 5, both 3 and 5 are operands, and + is the operator.
+
+#Python code:
+a = 10
+b = 20
+result = a + b
+# Here, a and b are operands, and + is the operator.
