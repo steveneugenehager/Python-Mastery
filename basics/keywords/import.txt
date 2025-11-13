@@ -1,0 +1,18 @@
+**************
+ALIASES
+**************
+
+in Python, you can import a specific function from a module and give it an alias (a different name) using the as keyword.
+
+For example:
+
+from math import sqrt as square_root
+print(square_root(16))
+
+This imports the sqrt() function from the math module and assigns it the alias square_root. 
+You can then use square_root() instead of sqrt().
+
+Why use aliases?
+- To shorten long function names.  (I don't think this is a good practice.)
+- To avoid name conflicts.
+- To improve clarity in your code.
