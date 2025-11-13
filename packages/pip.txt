@@ -1,0 +1,49 @@
+pip is the package installer for Python. It allows you to easily install, upgrade, and manage third-party 
+Python packages from the Python Package Index (PyPI) and other repositories.
+
+What pip does:
+    - Install packages: e.g., pip install requests
+    - Upgrade packages: e.g., pip install --upgrade numpy
+    - Uninstall packages: e.g., pip uninstall package_name
+    - List installed packages: e.g., pip list
+    - Show package details: e.g., pip show package_name
+
+
+To find out what third-party packages are installed in your Python environment, you can use the following 
+command in your terminal or command prompt:
+
+
+C:\Users\steve>python -m pip list
+Package Version
+------- -------
+cowsay  6.1
+pip     25.3
+
+
+
+To get more detailed information about a specific package, you can use:
+
+
+C:\Users\steve>python -m pip list
+Package Version
+------- -------
+cowsay  6.1
+pip     25.3
+
+C:\Users\steve>python -m pip show cowsay
+Name: cowsay
+Version: 6.1
+Summary: The famous cowsay for GNU/Linux is now available for python
+Home-page: https://github.com/VaasuDevanS/cowsay-python
+Author: Vaasudevan Srinivasan
+Author-email: vaasuceg.96@gmail.com
+License: GNU-GPL
+Location: C:\Users\steve\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages
+Requires:
+Required-by:
+
+
+To see all installed packages with their details, you can use:
+
+C:\Users\steve>python -m pip freeze
+cowsay==6.1
