@@ -1,0 +1,16 @@
+Module
+- A module is a single Python file (.py) containing definitions of functions, classes, variables, etc.
+- You can import a module to reuse its code.
+    Example: math.py (a single file) or standard modules like math, sys.
+
+
+Module: a single Python file with definitions (e.g., my_module.py).
+
+
+You import and use individual modules within those libraries.
+
+
+Example:
+
+import math
+print(math.sqrt(16))
