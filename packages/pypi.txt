@@ -1,0 +1,26 @@
+URL = https://www.pypi.org
+
+What is PyPI?
+    - It is a central platform where developers publish, share, and distribute Python packages.
+    - It hosts thousands of third-party modules and libraries that you can install and use in your Python projects.
+
+Purpose:
+    - PyPI makes it easy to find, install, and manage third-party Python software.
+    - It helps foster a large ecosystem of reusable Python components.
+
+How do you use PyPI?
+    The most common way to access packages from PyPI is through the pip tool:
+
+    pip install package_name
+
+
+On my Windows machine, pip executable isnt found, but it is installed. Using python command line, I can intsall stuuf:
+
+C:\Users\steve>python -m pip install cowsay
+Collecting cowsay
+  Downloading cowsay-6.1-py3-none-any.whl.metadata (5.6 kB)
+Downloading cowsay-6.1-py3-none-any.whl (25 kB)
+Installing collected packages: cowsay
+  WARNING: The script cowsay.exe is installed in 'C:\Users\steve\AppData\Local\Python\pythoncore-3.14-64\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed cowsay-6.1
