@@ -1,0 +1,8 @@
+    A browser is a software application that allows you to access, view, and interact with content
+on the internet, such as web pages, images, videos, and other online resources.
+
+What a browser does:
+    - Sends requests to web servers to retrieve web pages.
+    - Displays the content of web pages (HTML, CSS, JavaScript) to users.
+    - Allows navigation through links, bookmarks, and history.
+    - Supports features like cookies, extensions, and privacy settings.

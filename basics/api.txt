@@ -1,0 +1,16 @@
+    An API (Application Programming Interface) is a set of rules and protocols that allows 
+different software applications to communicate with each other. It defines the methods, 
+data formats, and conventions for requesting and exchanging information.
+
+In simple terms:
+    - Think of an API as a messenger that lets one program interact with another.
+    - It provides a set of functions or endpoints that developers can use to access features or data from a service or application.
+
+Example:
+    - When you use a weather app, it often gets weather data by calling an API provided by a weather service.
+    - When you fetch data from a website using a web API, you make requests (like GET or POST) to specific URLs, 
+        and the API responds with data (often in JSON format).
+
+Types of APIs:
+    - Web APIs: Used over the internet, like Twitter API, Google Maps API.
+    - Library or Framework APIs: Provided by software libraries to access specific functions.
