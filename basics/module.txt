@@ -20,4 +20,5 @@ Python Built in modules *
 *************************
 math
 random # https://docs.python.org/3/library/random.html
+statistics # https://docs.python.org/3/library/statistics.html
 sys
