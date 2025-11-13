@@ -1,0 +1,4 @@
+Subject         Date Added  Rationale
+-----------------------------------------------------------------------------------------------------------------------------------------------
+argparse        2025-12-24  A built-in Python module used for parsing command-line arguments and options passed to a script. It helps you
+                                define what arguments your program accepts, automatically handle user input, and generate help messages.
