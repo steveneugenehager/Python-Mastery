@@ -1,0 +1,70 @@
+# merge_intervals.py
+#
+# 2025-11-15 Steve Hager
+#
+# A coding challenge given by ChatGPT.
+#
+# Given a list of intervals, merge all overlapping intervals and 
+# return a list of non-overlapping intervals that cover all the intervals in the input.
+
+#Givens:
+input_intervals = [ [0, 1.5], [2, 4], [5, 7], [6, 8], [-1, 1], [8.5,8.5], [9,10], [10,10] , [9,10] ]
+
+#Assumptions
+# 1.  Each interval is specified by [ x , y ] where x <= y.  E.g., [lower boundary, upper boundary]
+# 2.  No attempt is made to discard duplicate intervals.  They don't change the results.
+# 3.  No attempt made to discard or fix intervals not in standard notation.
+
+# Key concepts or learning:
+# Sort the input intervals via key to ensure the lowest interval is used to seed 
+#   and all intervals will be overlapping or adjacent in a left to right fashion (along the number line).
+# Use check of emptiness to seed the first interval in the list to be built.
+# The sorting allows a single pass through the input data. Only the end of the "list being built" 
+#   has to be compared to the next item.
+# It wasn't required for the solution, but I wanted to use enum to make the solution more intuitive.
+
+from enum import Enum
+
+def main():
+    # Sort the intervals by their starting boundary. The function expects them to be so it can 
+    #   run through the list from left (lowest) to right (highest)
+    intervals = sorted(input_intervals, key=lambda x:x[0])
+    # Show the original intervals.
+    print("*** Original, sorted intervals =" , intervals)
+    # merge the intervals
+    merged_intervals = merge_intervals(intervals)
+    # Show the merged intervals.
+    print('** New merged intervals =' , merged_intervals)
+
+
+def merge_intervals(intervals):
+    """
+    This function takes a lists of intervals, each represented as a Python list as used in 
+    mathematics, square brackets indicating boundaries are inclusive, and the first number being the
+    starting boundary and second number being the upper boundary.
+    """
+    # Using enum to aid in the understanding of the proposed solution (and to practice using Enum).
+    class Boundary(Enum):
+        START=0
+        END=1
+    
+    # Start the merged interval list empty so it can be built, one item (interval) at a time.
+    merged = []
+    
+    #Iterate through the passed intervals.
+    for interval in intervals:
+        # If first interval, use it to seed the new list of intervals (append)
+        #   or if current interval's start is greater than the end of the last merged interval (append). 
+        #   They don't overlap.
+        if not merged or interval[Boundary.START.value] > merged[-1][Boundary.END.value]:
+            merged.append(interval)
+        # If current interval's start is less than or equal to than the end of the last merged interval 
+        #   they at least partially overlap.
+        #   Change the end of the last merged interval to fully cover this interval.
+        elif interval[Boundary.START.value] <= merged[-1][Boundary.END.value]:
+            merged[-1][Boundary.END.value] = max( interval[Boundary.END.value] , merged[-1][Boundary.END.value] )
+    return merged
+
+
+if __name__ == '__main__':
+    main()
